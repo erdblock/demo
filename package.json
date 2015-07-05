@@ -1,0 +1,19 @@
+{
+	"name": "demo-erdblock",
+	"version": "0.0.0",
+	"description": "Erdblock is a modular personal webpage, which stays up to date automatically.",
+	"private": true,
+	"dependencies": {
+		"express": "~4.12.2",
+		"jade": "x",
+		"erdblock": "git+ssh://git@github.com:erdblock/erdblock.git",
+		"erdblock-github": "git+ssh://git@github.com:erdblock/erdblock-github.git",
+		"erdblock-itunes": "git+ssh://git@github.com:erdblock/erdblock-itunes.git",
+		"erdblock-markdown": "git+ssh://git@github.com:erdblock/erdblock-markdown.git",
+		"erdblock-rss": "git+ssh://git@github.com:erdblock/erdblock-rss.git",
+		"erdblock-stackexchange": "git+ssh://git@github.com:erdblock/erdblock-stackexchange.git",
+		"erdblock-twitter": "git+ssh://git@github.com:erdblock/erdblock-twitter.git",
+		"erdblock-website": "git+ssh://git@github.com:erdblock/erdblock-website.git"
+	},
+	"main": "app.js"
+}
